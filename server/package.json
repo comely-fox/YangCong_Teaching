@@ -1,0 +1,23 @@
+{
+  "name": "yc-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "app": "tsc && nodemon dist/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "types": "./index.d.ts",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "fluent-ffmpeg": "^2.1.2",
+    "node-fetch": "^2.6.7",
+    "socket.io": "^4.4.1"
+  },
+  "devDependencies": {
+    "@types/node-fetch": "^2.6.1"
+  }
+}
